@@ -1,0 +1,12 @@
+@media (max-width:320px) {
+    header{
+        gap: 1em;
+    }
+    #dragonball{
+        height: 400px;
+        background-color: aquamarine;
+        display: flex; 
+    }
+    
+    
+    }

@@ -1,0 +1,186 @@
+@charset "UTF-8";
+
+body {
+    background-color: gray;
+    margin: 1em;
+    background-image: url(../img/fundo-G.jpg);
+    background-position: center;
+    background-size: cover;
+
+}
+
+header {
+    background-color: none;
+    height: 4em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4em;
+}
+
+button {
+    font-size: 1em;
+    background-color: transparent;
+    width: 8em;
+    border-radius: 20px;
+    border: solid 1px;
+    transition: 0.5s;
+}
+
+button:hover {
+    transform: scale(1.1);
+}
+
+main {
+    background-color: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 5em;
+    padding: 1em;  
+}
+
+#dragonball {
+    height: 700px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 2fr 1fr; 
+}
+
+#dragonball article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2em;
+    line-height: 1.3em;
+    text-align: justify;
+    padding: 10px;
+    font-size: 1.5em;
+    background-color: rgba(255, 255, 255, 0.500);
+    border-radius: 0em 5em 0em 0em;
+    
+}
+
+#dragonball article h1 {
+    text-align: center;
+}
+
+#dragonball picture {
+    box-shadow: 0px 30px 50px rgba(255, 221, 0, 0.400);
+    border-radius: 0em 0em 0em 5em;
+    animation: goku alternate 5s infinite;
+    
+}
+
+@keyframes goku {
+    0% {
+        background-image: url(../img/dragon-G.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+
+    100% {
+        background-image: url(../img/dragonball-g.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+
+}
+
+
+#naruto {
+    height: 700px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    border-radius: 0em 5em 0em 0em;
+}
+
+#naruto article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2em;
+    line-height: 1.3em;
+    text-align: justify;
+    padding: 10px;
+    font-size: 1.5em;
+    background-color: rgba(255, 255, 255, 0.500);
+    border-radius: 0em 5em 0em 0em;
+}
+
+#naruto article h1 {
+    text-align: center;
+}
+#naruto picture {
+    box-shadow: 0px 30px 50px rgba(255, 145, 0, 0.4);
+    border-radius: 0em 0em 0em 5em;
+    animation: naruto alternate 5s infinite;
+}
+
+@keyframes naruto {
+    0% {
+        background-image: url(../img/naruto-1-G.webp);
+        background-size: cover;
+        background-position: center top;
+    }
+
+    100% {
+        background-image: url(../img/naruto-2-G.webp);
+        background-size: cover;
+        background-position: center top;
+    }
+
+}
+
+
+#note {
+    height: 700px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    border-radius: 0em 5em 0em 0em;
+}
+
+#note article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2em;
+    line-height: 1.3em;
+    text-align: justify;
+    padding: 10px;
+    font-size: 1.5em;
+    background-color: rgba(255, 255, 255, 0.500);
+    border-radius: 0em 5em 0em 0em;
+}
+
+#note article h1 {
+    text-align: center;
+}
+#note picture {
+    box-shadow: 0px 30px 50px rgba(255, 0, 0, 0.4);
+    border-radius: 0em 0em 0em 5em;
+    animation: note alternate 5s infinite;
+}
+
+@keyframes note {
+    0% {
+        background-image: url(../img/note-1-G.jpg);
+        background-size: cover;
+        background-position: center top;
+    }
+
+    100% {
+        background-image: url(../img/note-2-G.jpg);
+        background-size: cover;
+        background-position: center top;
+    }
+
+}
+
+footer {
+    background-color: black;
+    height: 7em;
+}
