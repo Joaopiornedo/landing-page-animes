@@ -1,12 +1,24 @@
 @media (max-width:320px) {
+
     header{
         gap: 1em;
     }
-    #dragonball{
-        height: 400px;
-        background-color: aquamarine;
-        display: flex; 
+    button{
+        font-size: 0.8em;
     }
-    
+    #dragonball article {
+        gap: 1em;
+        font-size: 0.9em;
+        border-radius: 0em 0em 3em 0em;
+    }
+    #dragonball{
+        height: 350px;
+        grid-template-columns: none; 
+        grid-template-rows: 1fr 1fr;
+    }
+    #dragonball picture{
+        border-radius: 3em 0em 0em 0em;
+        box-shadow: none;
+    }
     
     }
