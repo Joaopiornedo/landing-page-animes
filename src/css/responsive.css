@@ -1,24 +1,200 @@
 @media (max-width:320px) {
-
-    header{
+    header {
         gap: 1em;
     }
-    button{
+
+    button {
         font-size: 0.8em;
     }
+
+    #dragonball {
+        height: 350px;
+        grid-template-columns: none;
+        grid-template-rows: 1fr 1fr;
+    }
+
     #dragonball article {
         gap: 1em;
         font-size: 0.9em;
         border-radius: 0em 0em 3em 0em;
     }
-    #dragonball{
+
+    #dragonball picture {
+        box-shadow: none;
+        border-radius: 3em 0em 0em 0em;
+    }
+
+    #naruto {
         height: 350px;
-        grid-template-columns: none; 
+        grid-template-columns: none;
         grid-template-rows: 1fr 1fr;
     }
-    #dragonball picture{
-        border-radius: 3em 0em 0em 0em;
+
+    #naruto article {
+        gap: 1em;
+        font-size: 0.9em;
+        border-radius: 0em 0em 3em 0em;
+    }
+
+    #naruto picture {
         box-shadow: none;
+        border-radius: 3em 0em 0em 0em;
     }
+
+    #note {
+        height: 350px;
+        grid-template-columns: none;
+        grid-template-rows: 1fr 1fr;
+    }
+
+    #note article {
+        gap: 1em;
+        font-size: 0.9em;
+        border-radius: 0em 0em 3em 0em;
+    }
+
+    #note picture {
+        box-shadow: none;
+        border-radius: 3em 0em 0em 0em;
+    }
+
+}
+
+@media (min-width: 321px) and (max-width: 480px) {
+    header {
+        gap: 1em;
+    }
+
+    button {
+        font-size: 0.8em;
+    }
+
+    #dragonball {
+        height: 350px;
+        grid-template-columns: none;
+        grid-template-rows: 1fr 1fr;
+    }
+
+    #dragonball article {
+        gap: 1em;
+        font-size: 0.9em;
+        border-radius: 0em 0em 3em 0em;
+    }
+
+    #dragonball picture {
+        box-shadow: none;
+        border-radius: 3em 0em 0em 0em;
+    }
+
+    #naruto {
+        height: 350px;
+        grid-template-columns: none;
+        grid-template-rows: 1fr 1fr;
+    }
+
+    #naruto article {
+        gap: 1em;
+        font-size: 0.9em;
+        border-radius: 0em 0em 3em 0em;
+    }
+
+    #naruto picture {
+        box-shadow: none;
+        border-radius: 3em 0em 0em 0em;
+    }
+
+    #note {
+        height: 350px;
+        grid-template-columns: none;
+        grid-template-rows: 1fr 1fr;
+    }
+
+    #note article {
+        gap: 1em;
+        font-size: 0.9em;
+        border-radius: 0em 0em 3em 0em;
+    }
+
+    #note picture {
+        box-shadow: none;
+        border-radius: 3em 0em 0em 0em;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 765px) {
+    header {
+        gap: 3em;
+    }
+
+    button {
+        font-size: 0.8em;
+    }
+
+    #dragonball {
+        height: 450px;
+        grid-template-columns: none;
+        grid-template-rows: 1fr 1fr;
+    }
+
+    #dragonball article {
+        gap: 1em;
+        font-size: 1.2em;
+        border-radius: 0em 0em 3em 0em;
+    }
+
+    #dragonball picture {
+        box-shadow: none;
+        border-radius: 3em 0em 0em 0em;
+    }
+
+    #naruto {
+        height: 450px;
+        grid-template-columns: none;
+        grid-template-rows: 1fr 1fr;
+    }
+
+    #naruto article {
+        gap: 1em;
+        font-size: 1.2em;
+        border-radius: 0em 0em 3em 0em;
+    }
+
+    #naruto picture {
+        box-shadow: none;
+        border-radius: 3em 0em 0em 0em;
+    }
+
+    #note {
+        height: 450px;
+        grid-template-columns: none;
+        grid-template-rows: 1fr 1fr;
+    }
+
+    #note article {
+        gap: 1em;
+        font-size: 1.2em;
+        border-radius: 0em 0em 3em 0em;
+    }
+
+    #note picture {
+        box-shadow: none;
+        border-radius: 3em 0em 0em 0em;
+    }
+}
+@media (min-width: 766px) and (max-width: 1024px) {
     
+    #dragonball {
+        height: 600px; 
     }
+    #naruto {
+        height: 600px;
+        
+    }
+    #note {
+        height: 600px;
+        
+    }
+}
+
+
+

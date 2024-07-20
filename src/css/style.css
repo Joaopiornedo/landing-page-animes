@@ -7,6 +7,7 @@ body {
     background-position: center;
     background-size: cover;
     
+    
 }
 
 header {
@@ -54,7 +55,6 @@ main {
     justify-content: center;
     gap: 2em;
     line-height: 1.3em;
-    text-align: justify;
     padding: 10px;
     font-size: 1.5em;
     background-color: rgba(255, 255, 255, 0.500);
@@ -103,7 +103,6 @@ main {
     justify-content: center;
     gap: 2em;
     line-height: 1.3em;
-    text-align: justify;
     padding: 10px;
     font-size: 1.5em;
     background-color: rgba(255, 255, 255, 0.500);
@@ -150,7 +149,6 @@ main {
     justify-content: center;
     gap: 2em;
     line-height: 1.3em;
-    text-align: justify;
     padding: 10px;
     font-size: 1.5em;
     background-color: rgba(255, 255, 255, 0.500);
